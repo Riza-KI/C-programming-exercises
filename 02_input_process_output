@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+  //Input,Process,Output  Chapter 2 Exercise 2.16
+int main()
+{
+   int num1 = 0;
+   int num2 = 0;
+   int sum,prod,diff,quo,remainder;
+
+printf("Enter first integer: ");
+scanf("%d", &num1);
+printf("Enter second integer: ");
+scanf("%d", &num2);
+
+sum = num1 + num2 ;
+prod = num1 * num2;
+diff = num1 - num2;
+quo = num1 / num2;
+remainder = num1 % num2;
+
+printf("Sum: %d\n", sum);
+printf("Product: %d\n", prod);
+printf("Difference: %d\n", diff);
+
+printf("Quotient: %d\n", quo);
+printf("Remainder: %d\n", remainder);
+
+    return 0;
+}
